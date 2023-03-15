@@ -1,0 +1,11 @@
+.flexContainer{
+    display: flex;
+    border-radius: 1rem;
+    color: #ffffee;
+    font-size: 0.5rem;
+}
+
+.flexContainer > a {
+    text-decoration: none;
+    color: #ffffee;
+}

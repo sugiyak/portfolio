@@ -1,11 +1,18 @@
 import cardStyles from "../styles/card.module.css"
 import Image from "next/image";
 
-export default function Card(props: any) {
+interface CardProps {
+  src: string;
+  alt: string;
+  link: string;
+  header: string;
+  description: string;
+  };
+
+export default function Card(props: CardProps) {
   const imageStyle = {
     borderRadius: "1rem",
   };
-  console.log(props)
     return (
       
       <div className={cardStyles.cardContainer}>

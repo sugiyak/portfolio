@@ -16,9 +16,10 @@ function Home () {
             alt="Image of a bank app"
             link="https://kei-mybank.netlify.app"
             header="My bank"
-            description="This app uses React, Node.js(Express), MongoDB, Firebase Authentication. It demonstrate my skill of creatig a secure app with RESTful API with MERN stack."
+            description="[Temporaly slow. Please be patient]This app uses React, Node.js(Express), MongoDB, Firebase Authentication. It demonstrate my skill of creatig a secure app with RESTful API with MERN stack."
             />
             <Card
+            link="#"
             src="/images/portfolio.png"
             alt="Image of a portfolio website"
             header="Portfolio"

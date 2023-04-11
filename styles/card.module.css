@@ -1,5 +1,5 @@
 .cardContainer {
-    height: 22rem;
+    height: 24rem;
     aspect-ratio: 2 / 2;
     padding: 1rem;
     margin:1rem;
@@ -31,6 +31,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 1rem;
+    overflow:scroll;
 }
 
 .siteLink{

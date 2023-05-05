@@ -7,9 +7,9 @@ function Home () {
             <Card
                 src="/images/hooked_magazine.png"
                 alt="Image of a magazine website"
-                link="https://hooked-magazine.netlify.app"
+                link="https://hooked-magazine.com"
                 header="Cultural magazine"
-                description="This is a demo website made with Typescript, Next.js, SCSS. Fully responsive site with some animations."
+                description="Demo website made with Typescript, Next.js, SCSS, Supabase. Fully responsive site with some animations."
             />
             <Card
                 src="/images/gmapTable.png"

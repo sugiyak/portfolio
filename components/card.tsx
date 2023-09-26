@@ -1,4 +1,5 @@
 import cardStyles from "../styles/card.module.css"
+import { useState } from 'react';
 import Image from "next/image";
 
 interface CardProps {
@@ -14,9 +15,13 @@ export default function Card(props: CardProps) {
   const imageStyle = {
     borderRadius: "1rem",
   };
+  // state for card flip
+  const [isFlipped, setIsFlipped] = useState(false);
+  const handleFlip = () => setIsFlipped(!isFlipped);
+
     return (
-      <a href={props.link} className={cardStyles.siteLink}>
-        <div className={cardStyles.cardContainer}>
+      <div className={`${cardStyles.cardContainer} ${isFlipped ? cardStyles.flipped : ''}`} 
+      onClick={handleFlip}>
 
           <div className={cardStyles.cardInner}>
             
@@ -45,12 +50,11 @@ export default function Card(props: CardProps) {
                       })}
                     </ul>
                 </div>
+                <a href={props.link} className={cardStyles.siteLink}>Visit Site</a>
             </div>
 
           </div>
 
         </div> 
-
-      </a>
     )
   }

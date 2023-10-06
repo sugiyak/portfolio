@@ -28,7 +28,7 @@ function Home () {
                 link="https://kei-mybank.netlify.app"
                 header="My bank"
                 description="A secure app with RESTful API powered by MERN stack. Made as capstone project in MIT web development certificate program."
-                techUsed={["React", "Node.js(Express)", "MongoDB Altas", "Firebase Authentication"]}
+                techUsed={["React", "Node.js(Express)", "MongoDB Altas", "Firebase Authentication", "AWS EC2", "Nginx", "Docker"]}
             />
         </Layout>
     )

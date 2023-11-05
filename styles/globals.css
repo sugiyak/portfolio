@@ -1,6 +1,5 @@
 .gloabalBackground{
-    background: rgb(205,202,202);
-    background: linear-gradient(0deg, rgba(205,202,202,1) 0%, rgba(228,228,228,1) 1%, rgba(247,247,247,1) 100%);
+    background: white;
     font-family: 'Open Sans', sans-serif;
 }
 * {

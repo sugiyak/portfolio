@@ -2,10 +2,18 @@ import Layout from '../components/layout';
 import Card from '../components/card';
 import Header from '@/components/header';
 
-function Home () {
+function Home() {
     return (
         <Layout>
             <Header />
+            <Card
+                src="/images/chopper.png"
+                alt="Image of Chopper app"
+                link="https://text-chopper.netlify.app"
+                header="Chopper"
+                description="Translation editer that parse long text using Sentence Boundry Detection and let you edit your translation on simple yet elegent interface."
+                techUsed={["Next.js", "Typescript", "shdcn"]}
+            />
             <Card
                 src="/images/hooked_magazine.png"
                 alt="Image of a magazine website"

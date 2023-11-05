@@ -2,6 +2,7 @@
 .intro{
     padding: 1rem;
     color: #3A3A3A;
+    width: 100%;
 }
 
 .intro > h1 {
@@ -11,12 +12,9 @@
 }
 
 .intro > p {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    width: 40rem;
+    margin: 1rem auto; /* Center block horizontally */
+    padding: 1rem 3rem; /* Consistent padding shorthand */
+    text-align: left; /* Justify text to left */
     font-size: 1.2rem;
-    margin: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: center;
-    text-justify: inter-word;
 }

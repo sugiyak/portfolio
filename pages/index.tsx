@@ -26,7 +26,7 @@ function Home() {
                 src="/images/gmapTable.png"
                 alt="Image of a map app"
                 link="https://gmapstableviewer.netlify.app"
-                header="Mappper"
+                header="Mapper"
                 description="Search for multiple search results for places/directions at once. Copy and paste results to excel."
                 techUsed={["React", "Google Maps API", "CSS", "React Bootsrap"]}
             />
